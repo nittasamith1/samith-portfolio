@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Projects | Nitta Samith — AI & Software Engineer</title>
+  <meta name="description" content="Featured engineering projects by Nitta Samith — AI platforms, ML fraud detection, revenue intelligence, logistics analytics, Java schedulers, and more.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Projects | Nitta Samith">
+  <meta property="og:description" content="Production-quality engineering projects in AI, Machine Learning, Data Engineering, Backend, and Full-Stack Development.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Zero-flash Theme script -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-theme');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="mainnav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="logo" aria-label="Nitta Samith — Home">NS</a>
+
+    <div class="navdomains" role="list">
+      <a href="index.html" role="listitem">Home</a>
+      <a href="about.html" role="listitem">About</a>
+      <a href="skills.html" role="listitem">Skills</a>
+      <a href="projects.html" role="listitem">Projects</a>
+      <a href="contact.html" role="listitem">Contact</a>
+    </div>
+
+    <div class="social-icons" aria-label="Social links">
+      <a href="https://github.com/nittasamith1" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/samith-nitta-536100381/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <button class="theme-toggle mobile-theme-toggle" aria-label="Toggle theme">
+      <i class="fa-solid fa-sun" aria-hidden="true"></i>
+    </button>
+  </div>
+
+
+  <main id="main-content">
+    <section class="section" aria-labelledby="projects-heading">
+
+      <!-- Section header -->
+      <header class="section-header reveal">
+        <span class="section-tag">What I've Built</span>
+        <h1 id="projects-heading">Featured <span>Projects</span></h1>
+        <p class="section-subtitle">
+          6 projects curated for quality, complexity, and engineering depth — each demonstrating
+          real problem-solving, thoughtful architecture, and production-level thinking.
+        </p>
+      </header>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs reveal" role="group" aria-label="Filter projects by category">
+        <button class="filter-tab active" data-filter="all" aria-pressed="true">All Projects</button>
+        <button class="filter-tab" data-filter="fs" aria-pressed="false">Full-Stack / AI</button>
+        <button class="filter-tab" data-filter="ml" aria-pressed="false">Machine Learning</button>
+        <button class="filter-tab" data-filter="data" aria-pressed="false">Data Engineering</button>
+        <button class="filter-tab" data-filter="be" aria-pressed="false">Backend / Systems</button>
+      </div>
+
+      <!-- Projects grid -->
+      <div class="projects-grid" role="list" aria-label="Featured projects">
+
+        <!-- 1: AgriCrop -->
+        <article class="project-card reveal reveal-delay-1" data-category="fs" role="listitem" aria-label="AgriCrop project">
+          <div class="project-category-badge badge-fs">
+            <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+            Full-Stack · AI
+          </div>
+
+          <h2 class="project-title">AgriCrop — AI-Powered Agricultural Platform</h2>
+          <p class="project-impact">
+            "Integrating AI with web technologies to automate agricultural intelligence at scale."
+          </p>
+
+          <p class="project-desc">
+            A production-grade full-stack web platform that combines AI with modern web technologies
+            to automate tasks, provide intelligent responses, and manage data securely.
+            Built with a scalable architecture that separates concerns across presentation,
+            business logic, and data layers. Demonstrates end-to-end system design from
+            database schema to intelligent API endpoints.
+          </p>
+
+          <div>
+            <p style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:#8899A6; margin-bottom:8px;">Tech Stack</p>
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">AI/ML</span>
+              <span class="stack-pill">Web APIs</span>
+              <span class="stack-pill">SQL</span>
+              <span class="stack-pill">Full-Stack</span>
+              <span class="stack-pill">Authentication</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/nittasamith1/AgriCrop"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-small"
+               aria-label="View AgriCrop source code on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- 2: Credit Card Fraud Detection -->
+        <article class="project-card reveal reveal-delay-2" data-category="ml" role="listitem" aria-label="Credit Card Fraud Detection project">
+          <div class="project-category-badge badge-ml">
+            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+            Machine Learning · Fintech
+          </div>
+
+          <h2 class="project-title">Intelligent Credit Card Fraud Detection</h2>
+          <p class="project-impact">
+            "Detecting financial fraud on highly imbalanced datasets using ML classification pipelines."
+          </p>
+
+          <p class="project-desc">
+            An end-to-end ML system that identifies fraudulent credit card transactions on
+            real-world highly imbalanced financial datasets. Key engineering challenges include
+            handling extreme class imbalance, selecting appropriate evaluation metrics
+            (Precision-Recall over Accuracy), and applying data mining techniques to
+            extract meaningful signal from noisy transactional data.
+          </p>
+
+          <div>
+            <p style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:#8899A6; margin-bottom:8px;">Tech Stack</p>
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">Scikit-learn</span>
+              <span class="stack-pill">Pandas</span>
+              <span class="stack-pill">NumPy</span>
+              <span class="stack-pill">Imbalanced-learn</span>
+              <span class="stack-pill">Matplotlib</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/nittasamith1/intelligent-credit-card-fraud-detection"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-small"
+               aria-label="View Credit Card Fraud Detection source code on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- 3: Revenue Intelligence Platform -->
+        <article class="project-card reveal reveal-delay-3" data-category="data" role="listitem" aria-label="Revenue Intelligence Platform project">
+          <div class="project-category-badge badge-data">
+            <i class="fa-solid fa-chart-pie" aria-hidden="true"></i>
+            Data Engineering · Analytics
+          </div>
+
+          <h2 class="project-title">Revenue Intelligence Platform</h2>
+          <p class="project-impact">
+            "Modular business analytics engine with ARIMA forecasting and RFM customer segmentation."
+          </p>
+
+          <p class="project-desc">
+            A modular, production-structured Python platform that processes transactional data,
+            performs RFM-based customer segmentation to identify high-value customer cohorts,
+            analyzes product performance across dimensions, and forecasts future revenue using
+            ARIMA time-series models. Designed with clean module separation and reusable
+            pipeline components.
+          </p>
+
+          <div>
+            <p style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:#8899A6; margin-bottom:8px;">Tech Stack</p>
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">ARIMA</span>
+              <span class="stack-pill">Pandas</span>
+              <span class="stack-pill">NumPy</span>
+              <span class="stack-pill">Matplotlib</span>
+              <span class="stack-pill">Statsmodels</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/nittasamith1/revenue-intelligence-platform"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-small"
+               aria-label="View Revenue Intelligence Platform source code on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- 4: Logistic Regression From Scratch -->
+        <article class="project-card reveal reveal-delay-1" data-category="ml" role="listitem" aria-label="Logistic Regression From Scratch project">
+          <div class="project-category-badge badge-ml">
+            <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+            ML Fundamentals
+          </div>
+
+          <h2 class="project-title">Logistic Regression From Scratch</h2>
+          <p class="project-impact">
+            "Implementing gradient descent and sigmoid optimization in pure NumPy — no black boxes."
+          </p>
+
+          <p class="project-desc">
+            Built a complete Logistic Regression classifier from first principles using only NumPy —
+            implementing the sigmoid function, gradient descent optimization, binary cross-entropy loss,
+            and evaluation metrics (accuracy, precision, recall, F1). Performance validated against
+            Scikit-learn's implementation on the same dataset. Demonstrates deep understanding of
+            the mathematics behind modern ML algorithms.
+          </p>
+
+          <div>
+            <p style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:#8899A6; margin-bottom:8px;">Tech Stack</p>
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">NumPy</span>
+              <span class="stack-pill">Matplotlib</span>
+              <span class="stack-pill">Gradient Descent</span>
+              <span class="stack-pill">Scikit-learn</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/nittasamith1/Logistic-Regression-From-Scratch"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-small"
+               aria-label="View Logistic Regression From Scratch source code on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- 5: Smart Task Scheduler (Java) -->
+        <article class="project-card reveal reveal-delay-2" data-category="be" role="listitem" aria-label="Smart Task Scheduler project">
+          <div class="project-category-badge badge-be">
+            <i class="fa-brands fa-java" aria-hidden="true"></i>
+            Backend · Systems
+          </div>
+
+          <h2 class="project-title">Smart Task Scheduler — Java Concurrency Engine</h2>
+          <p class="project-impact">
+            "Priority-based concurrent task scheduling with file persistence and clean layered architecture."
+          </p>
+
+          <p class="project-desc">
+            A production-quality task scheduling engine built in Core Java using custom Comparators
+            for priority ordering, Java multithreading for concurrent task execution, and file-based
+            persistence for durability across restarts. Implemented with a clean layered architecture
+            separating domain logic from infrastructure concerns — demonstrating systems engineering
+            maturity beyond typical academic projects.
+          </p>
+
+          <div>
+            <p style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:#8899A6; margin-bottom:8px;">Tech Stack</p>
+            <div class="project-stack">
+              <span class="stack-pill">Java</span>
+              <span class="stack-pill">Multithreading</span>
+              <span class="stack-pill">Custom Comparator</span>
+              <span class="stack-pill">OOP</span>
+              <span class="stack-pill">File I/O</span>
+              <span class="stack-pill">Layered Architecture</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/nittasamith1/smart-task-scheduler-java"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-small"
+               aria-label="View Smart Task Scheduler source code on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- 6: Smart Logistics Supply Chain Analytics -->
+        <article class="project-card reveal reveal-delay-3" data-category="data" role="listitem" aria-label="Smart Logistics Supply Chain Analytics project">
+          <div class="project-category-badge badge-data">
+            <i class="fa-solid fa-truck-fast" aria-hidden="true"></i>
+            Data Engineering · BI
+          </div>
+
+          <h2 class="project-title">Smart Logistics Supply Chain Analytics</h2>
+          <p class="project-impact">
+            "End-to-end logistics analytics with SQL querying, Python pipelines, and Power BI dashboards."
+          </p>
+
+          <p class="project-desc">
+            A comprehensive data analytics project analyzing supply chain performance metrics
+            across a logistics operation. Covers the full data workflow: raw data ingestion,
+            Python-based cleaning and preprocessing, SQL analytical querying for business
+            insights, and an interactive Power BI dashboard for stakeholder reporting.
+            Demonstrates practical data engineering skills that translate directly to
+            enterprise analytics roles.
+          </p>
+
+          <div>
+            <p style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:#8899A6; margin-bottom:8px;">Tech Stack</p>
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">SQL</span>
+              <span class="stack-pill">Power BI</span>
+              <span class="stack-pill">Pandas</span>
+              <span class="stack-pill">Data Visualization</span>
+              <span class="stack-pill">EDA</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/nittasamith1/Smart-Logistics-Supply-Chain-Analytics"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-small"
+               aria-label="View Smart Logistics Supply Chain Analytics source code on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- GitHub CTA -->
+      <div class="reveal" style="margin-top:64px; text-align:center; padding:40px; background: rgba(56,189,248,0.04); border:1px solid rgba(56,189,248,0.14); border-radius:18px;">
+        <h2 style="font-size:24px; font-weight:700; margin-bottom:12px;">More on GitHub</h2>
+        <p style="font-size:15px; color:#C9D6DF; margin-bottom:28px; max-width:480px; margin-left:auto; margin-right:auto; line-height:1.7;">
+          Explore all 15 repositories including ML experiments, regression models,
+          data analysis case studies, and more.
+        </p>
+        <a href="https://github.com/nittasamith1"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn"
+           aria-label="View all repositories on GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          View All on GitHub
+        </a>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <span class="footer-logo">NS</span>
+      <span class="footer-copy">© 2026 Nitta Samith. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/nittasamith1" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
