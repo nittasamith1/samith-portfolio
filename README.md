@@ -7,9 +7,8 @@ Designed to highlight impactful projects, technical skills, achievements, and my
 ## 🌐 Live Demo
 
 > 🚀 Coming Soon
-
-<!-- Replace with your deployed portfolio URL -->
-<!-- https://your-portfolio.vercel.app -->
+> 
+(https://samith-portfolio-ten.vercel.app/)
 
 ---
 
