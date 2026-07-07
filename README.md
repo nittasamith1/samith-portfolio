@@ -6,8 +6,6 @@ Designed to highlight impactful projects, technical skills, achievements, and my
 
 ## 🌐 Live Demo
 
-> 🚀 Coming Soon
-> 
 (https://samith-portfolio-ten.vercel.app/)
 
 ---
